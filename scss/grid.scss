@@ -1,0 +1,68 @@
+@import 'mixin.scss';
+
+$columns: 32;
+$column_size: minmax(10px, 1fr);
+
+.grid_container {
+    display: grid;
+
+    @for $i from 1 to $columns+1 {
+        &.columns-#{$i} {
+            grid-template-columns: repeat($i, $column_size);
+        }
+
+        &.sm#{'\\'}:columns-#{$i} {
+            @include screen_sm() {
+                grid-template-columns: repeat($i, $column_size);
+            }
+        }
+
+        &.md#{'\\'}:columns-#{$i} {
+            @include screen_md() {
+                grid-template-columns: repeat($i, $column_size);
+            }
+        }
+
+        &.lg#{'\\'}:columns-#{$i} {
+            @include screen_lg() {
+                grid-template-columns: repeat($i, $column_size);
+            }
+        }
+
+        &.xl#{'\\'}:columns-#{$i} {
+            @include screen_xl() {
+                grid-template-columns: repeat($i, $column_size);
+            }
+        }
+
+        .column-fill-#{$i}{
+            grid-column: span $i;
+        }
+
+        .sm#{'\\'}:column-fill-#{$i} {
+            @include screen_sm() {
+                grid-column: span $i;
+            }
+        }
+
+        .md#{'\\'}:column-fill-#{$i} {
+            @include screen_md() {
+                grid-column: span $i;
+            }
+        }
+
+        .lg#{'\\'}:column-fill-#{$i} {
+            @include screen_lg() {
+                grid-column: span $i;
+            }
+        }
+
+        .xl#{'\\'}:column-fill-#{$i} {
+            @include screen_xl() {
+                grid-column: span $i;
+            }
+        }
+
+    }
+
+}

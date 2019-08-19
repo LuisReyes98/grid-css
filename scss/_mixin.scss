@@ -1,0 +1,30 @@
+$sm_size: 640px;
+$md_size: 768px;
+$lg_size: 1024px;
+$xl_size: 1280px;
+
+
+@mixin screen_sm() {
+    @media (min-width:$sm_size) {
+        @content;
+    }
+}
+
+
+@mixin screen_md() {
+    @media (min-width: $md_size) {
+        @content;
+    }
+}
+
+@mixin screen_lg() {
+    @media (min-width: $lg_size) {
+        @content;
+    }
+}
+
+@mixin screen_xl() {
+    @media (min-width: $xl_size) {
+        @content;
+    }
+}

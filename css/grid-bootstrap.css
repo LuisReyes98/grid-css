@@ -1,0 +1,900 @@
+.grid_container {
+  display: grid; }
+  .grid_container.columns-1 {
+    grid-template-columns: repeat(1, minmax(10px, 1fr)); }
+  @media (min-width: 640px) {
+    .grid_container.columns-sm-1 {
+      grid-template-columns: repeat(1, minmax(10px, 1fr)); } }
+  @media (min-width: 768px) {
+    .grid_container.columns-md-1 {
+      grid-template-columns: repeat(1, minmax(10px, 1fr)); } }
+  @media (min-width: 1024px) {
+    .grid_container.columns-lg-1 {
+      grid-template-columns: repeat(1, minmax(10px, 1fr)); } }
+  @media (min-width: 1280px) {
+    .grid_container.columns-xl-1 {
+      grid-template-columns: repeat(1, minmax(10px, 1fr)); } }
+  .grid_container .column-fill-1 {
+    grid-column: span 1; }
+  @media (min-width: 640px) {
+    .grid_container .column-sm-fill-1 {
+      grid-column: span 1; } }
+  @media (min-width: 768px) {
+    .grid_container .column-md-fill-1 {
+      grid-column: span 1; } }
+  @media (min-width: 1024px) {
+    .grid_container .column-lg-fill-1 {
+      grid-column: span 1; } }
+  @media (min-width: 1280px) {
+    .grid_container .column-xl-fill-1 {
+      grid-column: span 1; } }
+  .grid_container.columns-2 {
+    grid-template-columns: repeat(2, minmax(10px, 1fr)); }
+  @media (min-width: 640px) {
+    .grid_container.columns-sm-2 {
+      grid-template-columns: repeat(2, minmax(10px, 1fr)); } }
+  @media (min-width: 768px) {
+    .grid_container.columns-md-2 {
+      grid-template-columns: repeat(2, minmax(10px, 1fr)); } }
+  @media (min-width: 1024px) {
+    .grid_container.columns-lg-2 {
+      grid-template-columns: repeat(2, minmax(10px, 1fr)); } }
+  @media (min-width: 1280px) {
+    .grid_container.columns-xl-2 {
+      grid-template-columns: repeat(2, minmax(10px, 1fr)); } }
+  .grid_container .column-fill-2 {
+    grid-column: span 2; }
+  @media (min-width: 640px) {
+    .grid_container .column-sm-fill-2 {
+      grid-column: span 2; } }
+  @media (min-width: 768px) {
+    .grid_container .column-md-fill-2 {
+      grid-column: span 2; } }
+  @media (min-width: 1024px) {
+    .grid_container .column-lg-fill-2 {
+      grid-column: span 2; } }
+  @media (min-width: 1280px) {
+    .grid_container .column-xl-fill-2 {
+      grid-column: span 2; } }
+  .grid_container.columns-3 {
+    grid-template-columns: repeat(3, minmax(10px, 1fr)); }
+  @media (min-width: 640px) {
+    .grid_container.columns-sm-3 {
+      grid-template-columns: repeat(3, minmax(10px, 1fr)); } }
+  @media (min-width: 768px) {
+    .grid_container.columns-md-3 {
+      grid-template-columns: repeat(3, minmax(10px, 1fr)); } }
+  @media (min-width: 1024px) {
+    .grid_container.columns-lg-3 {
+      grid-template-columns: repeat(3, minmax(10px, 1fr)); } }
+  @media (min-width: 1280px) {
+    .grid_container.columns-xl-3 {
+      grid-template-columns: repeat(3, minmax(10px, 1fr)); } }
+  .grid_container .column-fill-3 {
+    grid-column: span 3; }
+  @media (min-width: 640px) {
+    .grid_container .column-sm-fill-3 {
+      grid-column: span 3; } }
+  @media (min-width: 768px) {
+    .grid_container .column-md-fill-3 {
+      grid-column: span 3; } }
+  @media (min-width: 1024px) {
+    .grid_container .column-lg-fill-3 {
+      grid-column: span 3; } }
+  @media (min-width: 1280px) {
+    .grid_container .column-xl-fill-3 {
+      grid-column: span 3; } }
+  .grid_container.columns-4 {
+    grid-template-columns: repeat(4, minmax(10px, 1fr)); }
+  @media (min-width: 640px) {
+    .grid_container.columns-sm-4 {
+      grid-template-columns: repeat(4, minmax(10px, 1fr)); } }
+  @media (min-width: 768px) {
+    .grid_container.columns-md-4 {
+      grid-template-columns: repeat(4, minmax(10px, 1fr)); } }
+  @media (min-width: 1024px) {
+    .grid_container.columns-lg-4 {
+      grid-template-columns: repeat(4, minmax(10px, 1fr)); } }
+  @media (min-width: 1280px) {
+    .grid_container.columns-xl-4 {
+      grid-template-columns: repeat(4, minmax(10px, 1fr)); } }
+  .grid_container .column-fill-4 {
+    grid-column: span 4; }
+  @media (min-width: 640px) {
+    .grid_container .column-sm-fill-4 {
+      grid-column: span 4; } }
+  @media (min-width: 768px) {
+    .grid_container .column-md-fill-4 {
+      grid-column: span 4; } }
+  @media (min-width: 1024px) {
+    .grid_container .column-lg-fill-4 {
+      grid-column: span 4; } }
+  @media (min-width: 1280px) {
+    .grid_container .column-xl-fill-4 {
+      grid-column: span 4; } }
+  .grid_container.columns-5 {
+    grid-template-columns: repeat(5, minmax(10px, 1fr)); }
+  @media (min-width: 640px) {
+    .grid_container.columns-sm-5 {
+      grid-template-columns: repeat(5, minmax(10px, 1fr)); } }
+  @media (min-width: 768px) {
+    .grid_container.columns-md-5 {
+      grid-template-columns: repeat(5, minmax(10px, 1fr)); } }
+  @media (min-width: 1024px) {
+    .grid_container.columns-lg-5 {
+      grid-template-columns: repeat(5, minmax(10px, 1fr)); } }
+  @media (min-width: 1280px) {
+    .grid_container.columns-xl-5 {
+      grid-template-columns: repeat(5, minmax(10px, 1fr)); } }
+  .grid_container .column-fill-5 {
+    grid-column: span 5; }
+  @media (min-width: 640px) {
+    .grid_container .column-sm-fill-5 {
+      grid-column: span 5; } }
+  @media (min-width: 768px) {
+    .grid_container .column-md-fill-5 {
+      grid-column: span 5; } }
+  @media (min-width: 1024px) {
+    .grid_container .column-lg-fill-5 {
+      grid-column: span 5; } }
+  @media (min-width: 1280px) {
+    .grid_container .column-xl-fill-5 {
+      grid-column: span 5; } }
+  .grid_container.columns-6 {
+    grid-template-columns: repeat(6, minmax(10px, 1fr)); }
+  @media (min-width: 640px) {
+    .grid_container.columns-sm-6 {
+      grid-template-columns: repeat(6, minmax(10px, 1fr)); } }
+  @media (min-width: 768px) {
+    .grid_container.columns-md-6 {
+      grid-template-columns: repeat(6, minmax(10px, 1fr)); } }
+  @media (min-width: 1024px) {
+    .grid_container.columns-lg-6 {
+      grid-template-columns: repeat(6, minmax(10px, 1fr)); } }
+  @media (min-width: 1280px) {
+    .grid_container.columns-xl-6 {
+      grid-template-columns: repeat(6, minmax(10px, 1fr)); } }
+  .grid_container .column-fill-6 {
+    grid-column: span 6; }
+  @media (min-width: 640px) {
+    .grid_container .column-sm-fill-6 {
+      grid-column: span 6; } }
+  @media (min-width: 768px) {
+    .grid_container .column-md-fill-6 {
+      grid-column: span 6; } }
+  @media (min-width: 1024px) {
+    .grid_container .column-lg-fill-6 {
+      grid-column: span 6; } }
+  @media (min-width: 1280px) {
+    .grid_container .column-xl-fill-6 {
+      grid-column: span 6; } }
+  .grid_container.columns-7 {
+    grid-template-columns: repeat(7, minmax(10px, 1fr)); }
+  @media (min-width: 640px) {
+    .grid_container.columns-sm-7 {
+      grid-template-columns: repeat(7, minmax(10px, 1fr)); } }
+  @media (min-width: 768px) {
+    .grid_container.columns-md-7 {
+      grid-template-columns: repeat(7, minmax(10px, 1fr)); } }
+  @media (min-width: 1024px) {
+    .grid_container.columns-lg-7 {
+      grid-template-columns: repeat(7, minmax(10px, 1fr)); } }
+  @media (min-width: 1280px) {
+    .grid_container.columns-xl-7 {
+      grid-template-columns: repeat(7, minmax(10px, 1fr)); } }
+  .grid_container .column-fill-7 {
+    grid-column: span 7; }
+  @media (min-width: 640px) {
+    .grid_container .column-sm-fill-7 {
+      grid-column: span 7; } }
+  @media (min-width: 768px) {
+    .grid_container .column-md-fill-7 {
+      grid-column: span 7; } }
+  @media (min-width: 1024px) {
+    .grid_container .column-lg-fill-7 {
+      grid-column: span 7; } }
+  @media (min-width: 1280px) {
+    .grid_container .column-xl-fill-7 {
+      grid-column: span 7; } }
+  .grid_container.columns-8 {
+    grid-template-columns: repeat(8, minmax(10px, 1fr)); }
+  @media (min-width: 640px) {
+    .grid_container.columns-sm-8 {
+      grid-template-columns: repeat(8, minmax(10px, 1fr)); } }
+  @media (min-width: 768px) {
+    .grid_container.columns-md-8 {
+      grid-template-columns: repeat(8, minmax(10px, 1fr)); } }
+  @media (min-width: 1024px) {
+    .grid_container.columns-lg-8 {
+      grid-template-columns: repeat(8, minmax(10px, 1fr)); } }
+  @media (min-width: 1280px) {
+    .grid_container.columns-xl-8 {
+      grid-template-columns: repeat(8, minmax(10px, 1fr)); } }
+  .grid_container .column-fill-8 {
+    grid-column: span 8; }
+  @media (min-width: 640px) {
+    .grid_container .column-sm-fill-8 {
+      grid-column: span 8; } }
+  @media (min-width: 768px) {
+    .grid_container .column-md-fill-8 {
+      grid-column: span 8; } }
+  @media (min-width: 1024px) {
+    .grid_container .column-lg-fill-8 {
+      grid-column: span 8; } }
+  @media (min-width: 1280px) {
+    .grid_container .column-xl-fill-8 {
+      grid-column: span 8; } }
+  .grid_container.columns-9 {
+    grid-template-columns: repeat(9, minmax(10px, 1fr)); }
+  @media (min-width: 640px) {
+    .grid_container.columns-sm-9 {
+      grid-template-columns: repeat(9, minmax(10px, 1fr)); } }
+  @media (min-width: 768px) {
+    .grid_container.columns-md-9 {
+      grid-template-columns: repeat(9, minmax(10px, 1fr)); } }
+  @media (min-width: 1024px) {
+    .grid_container.columns-lg-9 {
+      grid-template-columns: repeat(9, minmax(10px, 1fr)); } }
+  @media (min-width: 1280px) {
+    .grid_container.columns-xl-9 {
+      grid-template-columns: repeat(9, minmax(10px, 1fr)); } }
+  .grid_container .column-fill-9 {
+    grid-column: span 9; }
+  @media (min-width: 640px) {
+    .grid_container .column-sm-fill-9 {
+      grid-column: span 9; } }
+  @media (min-width: 768px) {
+    .grid_container .column-md-fill-9 {
+      grid-column: span 9; } }
+  @media (min-width: 1024px) {
+    .grid_container .column-lg-fill-9 {
+      grid-column: span 9; } }
+  @media (min-width: 1280px) {
+    .grid_container .column-xl-fill-9 {
+      grid-column: span 9; } }
+  .grid_container.columns-10 {
+    grid-template-columns: repeat(10, minmax(10px, 1fr)); }
+  @media (min-width: 640px) {
+    .grid_container.columns-sm-10 {
+      grid-template-columns: repeat(10, minmax(10px, 1fr)); } }
+  @media (min-width: 768px) {
+    .grid_container.columns-md-10 {
+      grid-template-columns: repeat(10, minmax(10px, 1fr)); } }
+  @media (min-width: 1024px) {
+    .grid_container.columns-lg-10 {
+      grid-template-columns: repeat(10, minmax(10px, 1fr)); } }
+  @media (min-width: 1280px) {
+    .grid_container.columns-xl-10 {
+      grid-template-columns: repeat(10, minmax(10px, 1fr)); } }
+  .grid_container .column-fill-10 {
+    grid-column: span 10; }
+  @media (min-width: 640px) {
+    .grid_container .column-sm-fill-10 {
+      grid-column: span 10; } }
+  @media (min-width: 768px) {
+    .grid_container .column-md-fill-10 {
+      grid-column: span 10; } }
+  @media (min-width: 1024px) {
+    .grid_container .column-lg-fill-10 {
+      grid-column: span 10; } }
+  @media (min-width: 1280px) {
+    .grid_container .column-xl-fill-10 {
+      grid-column: span 10; } }
+  .grid_container.columns-11 {
+    grid-template-columns: repeat(11, minmax(10px, 1fr)); }
+  @media (min-width: 640px) {
+    .grid_container.columns-sm-11 {
+      grid-template-columns: repeat(11, minmax(10px, 1fr)); } }
+  @media (min-width: 768px) {
+    .grid_container.columns-md-11 {
+      grid-template-columns: repeat(11, minmax(10px, 1fr)); } }
+  @media (min-width: 1024px) {
+    .grid_container.columns-lg-11 {
+      grid-template-columns: repeat(11, minmax(10px, 1fr)); } }
+  @media (min-width: 1280px) {
+    .grid_container.columns-xl-11 {
+      grid-template-columns: repeat(11, minmax(10px, 1fr)); } }
+  .grid_container .column-fill-11 {
+    grid-column: span 11; }
+  @media (min-width: 640px) {
+    .grid_container .column-sm-fill-11 {
+      grid-column: span 11; } }
+  @media (min-width: 768px) {
+    .grid_container .column-md-fill-11 {
+      grid-column: span 11; } }
+  @media (min-width: 1024px) {
+    .grid_container .column-lg-fill-11 {
+      grid-column: span 11; } }
+  @media (min-width: 1280px) {
+    .grid_container .column-xl-fill-11 {
+      grid-column: span 11; } }
+  .grid_container.columns-12 {
+    grid-template-columns: repeat(12, minmax(10px, 1fr)); }
+  @media (min-width: 640px) {
+    .grid_container.columns-sm-12 {
+      grid-template-columns: repeat(12, minmax(10px, 1fr)); } }
+  @media (min-width: 768px) {
+    .grid_container.columns-md-12 {
+      grid-template-columns: repeat(12, minmax(10px, 1fr)); } }
+  @media (min-width: 1024px) {
+    .grid_container.columns-lg-12 {
+      grid-template-columns: repeat(12, minmax(10px, 1fr)); } }
+  @media (min-width: 1280px) {
+    .grid_container.columns-xl-12 {
+      grid-template-columns: repeat(12, minmax(10px, 1fr)); } }
+  .grid_container .column-fill-12 {
+    grid-column: span 12; }
+  @media (min-width: 640px) {
+    .grid_container .column-sm-fill-12 {
+      grid-column: span 12; } }
+  @media (min-width: 768px) {
+    .grid_container .column-md-fill-12 {
+      grid-column: span 12; } }
+  @media (min-width: 1024px) {
+    .grid_container .column-lg-fill-12 {
+      grid-column: span 12; } }
+  @media (min-width: 1280px) {
+    .grid_container .column-xl-fill-12 {
+      grid-column: span 12; } }
+  .grid_container.columns-13 {
+    grid-template-columns: repeat(13, minmax(10px, 1fr)); }
+  @media (min-width: 640px) {
+    .grid_container.columns-sm-13 {
+      grid-template-columns: repeat(13, minmax(10px, 1fr)); } }
+  @media (min-width: 768px) {
+    .grid_container.columns-md-13 {
+      grid-template-columns: repeat(13, minmax(10px, 1fr)); } }
+  @media (min-width: 1024px) {
+    .grid_container.columns-lg-13 {
+      grid-template-columns: repeat(13, minmax(10px, 1fr)); } }
+  @media (min-width: 1280px) {
+    .grid_container.columns-xl-13 {
+      grid-template-columns: repeat(13, minmax(10px, 1fr)); } }
+  .grid_container .column-fill-13 {
+    grid-column: span 13; }
+  @media (min-width: 640px) {
+    .grid_container .column-sm-fill-13 {
+      grid-column: span 13; } }
+  @media (min-width: 768px) {
+    .grid_container .column-md-fill-13 {
+      grid-column: span 13; } }
+  @media (min-width: 1024px) {
+    .grid_container .column-lg-fill-13 {
+      grid-column: span 13; } }
+  @media (min-width: 1280px) {
+    .grid_container .column-xl-fill-13 {
+      grid-column: span 13; } }
+  .grid_container.columns-14 {
+    grid-template-columns: repeat(14, minmax(10px, 1fr)); }
+  @media (min-width: 640px) {
+    .grid_container.columns-sm-14 {
+      grid-template-columns: repeat(14, minmax(10px, 1fr)); } }
+  @media (min-width: 768px) {
+    .grid_container.columns-md-14 {
+      grid-template-columns: repeat(14, minmax(10px, 1fr)); } }
+  @media (min-width: 1024px) {
+    .grid_container.columns-lg-14 {
+      grid-template-columns: repeat(14, minmax(10px, 1fr)); } }
+  @media (min-width: 1280px) {
+    .grid_container.columns-xl-14 {
+      grid-template-columns: repeat(14, minmax(10px, 1fr)); } }
+  .grid_container .column-fill-14 {
+    grid-column: span 14; }
+  @media (min-width: 640px) {
+    .grid_container .column-sm-fill-14 {
+      grid-column: span 14; } }
+  @media (min-width: 768px) {
+    .grid_container .column-md-fill-14 {
+      grid-column: span 14; } }
+  @media (min-width: 1024px) {
+    .grid_container .column-lg-fill-14 {
+      grid-column: span 14; } }
+  @media (min-width: 1280px) {
+    .grid_container .column-xl-fill-14 {
+      grid-column: span 14; } }
+  .grid_container.columns-15 {
+    grid-template-columns: repeat(15, minmax(10px, 1fr)); }
+  @media (min-width: 640px) {
+    .grid_container.columns-sm-15 {
+      grid-template-columns: repeat(15, minmax(10px, 1fr)); } }
+  @media (min-width: 768px) {
+    .grid_container.columns-md-15 {
+      grid-template-columns: repeat(15, minmax(10px, 1fr)); } }
+  @media (min-width: 1024px) {
+    .grid_container.columns-lg-15 {
+      grid-template-columns: repeat(15, minmax(10px, 1fr)); } }
+  @media (min-width: 1280px) {
+    .grid_container.columns-xl-15 {
+      grid-template-columns: repeat(15, minmax(10px, 1fr)); } }
+  .grid_container .column-fill-15 {
+    grid-column: span 15; }
+  @media (min-width: 640px) {
+    .grid_container .column-sm-fill-15 {
+      grid-column: span 15; } }
+  @media (min-width: 768px) {
+    .grid_container .column-md-fill-15 {
+      grid-column: span 15; } }
+  @media (min-width: 1024px) {
+    .grid_container .column-lg-fill-15 {
+      grid-column: span 15; } }
+  @media (min-width: 1280px) {
+    .grid_container .column-xl-fill-15 {
+      grid-column: span 15; } }
+  .grid_container.columns-16 {
+    grid-template-columns: repeat(16, minmax(10px, 1fr)); }
+  @media (min-width: 640px) {
+    .grid_container.columns-sm-16 {
+      grid-template-columns: repeat(16, minmax(10px, 1fr)); } }
+  @media (min-width: 768px) {
+    .grid_container.columns-md-16 {
+      grid-template-columns: repeat(16, minmax(10px, 1fr)); } }
+  @media (min-width: 1024px) {
+    .grid_container.columns-lg-16 {
+      grid-template-columns: repeat(16, minmax(10px, 1fr)); } }
+  @media (min-width: 1280px) {
+    .grid_container.columns-xl-16 {
+      grid-template-columns: repeat(16, minmax(10px, 1fr)); } }
+  .grid_container .column-fill-16 {
+    grid-column: span 16; }
+  @media (min-width: 640px) {
+    .grid_container .column-sm-fill-16 {
+      grid-column: span 16; } }
+  @media (min-width: 768px) {
+    .grid_container .column-md-fill-16 {
+      grid-column: span 16; } }
+  @media (min-width: 1024px) {
+    .grid_container .column-lg-fill-16 {
+      grid-column: span 16; } }
+  @media (min-width: 1280px) {
+    .grid_container .column-xl-fill-16 {
+      grid-column: span 16; } }
+  .grid_container.columns-17 {
+    grid-template-columns: repeat(17, minmax(10px, 1fr)); }
+  @media (min-width: 640px) {
+    .grid_container.columns-sm-17 {
+      grid-template-columns: repeat(17, minmax(10px, 1fr)); } }
+  @media (min-width: 768px) {
+    .grid_container.columns-md-17 {
+      grid-template-columns: repeat(17, minmax(10px, 1fr)); } }
+  @media (min-width: 1024px) {
+    .grid_container.columns-lg-17 {
+      grid-template-columns: repeat(17, minmax(10px, 1fr)); } }
+  @media (min-width: 1280px) {
+    .grid_container.columns-xl-17 {
+      grid-template-columns: repeat(17, minmax(10px, 1fr)); } }
+  .grid_container .column-fill-17 {
+    grid-column: span 17; }
+  @media (min-width: 640px) {
+    .grid_container .column-sm-fill-17 {
+      grid-column: span 17; } }
+  @media (min-width: 768px) {
+    .grid_container .column-md-fill-17 {
+      grid-column: span 17; } }
+  @media (min-width: 1024px) {
+    .grid_container .column-lg-fill-17 {
+      grid-column: span 17; } }
+  @media (min-width: 1280px) {
+    .grid_container .column-xl-fill-17 {
+      grid-column: span 17; } }
+  .grid_container.columns-18 {
+    grid-template-columns: repeat(18, minmax(10px, 1fr)); }
+  @media (min-width: 640px) {
+    .grid_container.columns-sm-18 {
+      grid-template-columns: repeat(18, minmax(10px, 1fr)); } }
+  @media (min-width: 768px) {
+    .grid_container.columns-md-18 {
+      grid-template-columns: repeat(18, minmax(10px, 1fr)); } }
+  @media (min-width: 1024px) {
+    .grid_container.columns-lg-18 {
+      grid-template-columns: repeat(18, minmax(10px, 1fr)); } }
+  @media (min-width: 1280px) {
+    .grid_container.columns-xl-18 {
+      grid-template-columns: repeat(18, minmax(10px, 1fr)); } }
+  .grid_container .column-fill-18 {
+    grid-column: span 18; }
+  @media (min-width: 640px) {
+    .grid_container .column-sm-fill-18 {
+      grid-column: span 18; } }
+  @media (min-width: 768px) {
+    .grid_container .column-md-fill-18 {
+      grid-column: span 18; } }
+  @media (min-width: 1024px) {
+    .grid_container .column-lg-fill-18 {
+      grid-column: span 18; } }
+  @media (min-width: 1280px) {
+    .grid_container .column-xl-fill-18 {
+      grid-column: span 18; } }
+  .grid_container.columns-19 {
+    grid-template-columns: repeat(19, minmax(10px, 1fr)); }
+  @media (min-width: 640px) {
+    .grid_container.columns-sm-19 {
+      grid-template-columns: repeat(19, minmax(10px, 1fr)); } }
+  @media (min-width: 768px) {
+    .grid_container.columns-md-19 {
+      grid-template-columns: repeat(19, minmax(10px, 1fr)); } }
+  @media (min-width: 1024px) {
+    .grid_container.columns-lg-19 {
+      grid-template-columns: repeat(19, minmax(10px, 1fr)); } }
+  @media (min-width: 1280px) {
+    .grid_container.columns-xl-19 {
+      grid-template-columns: repeat(19, minmax(10px, 1fr)); } }
+  .grid_container .column-fill-19 {
+    grid-column: span 19; }
+  @media (min-width: 640px) {
+    .grid_container .column-sm-fill-19 {
+      grid-column: span 19; } }
+  @media (min-width: 768px) {
+    .grid_container .column-md-fill-19 {
+      grid-column: span 19; } }
+  @media (min-width: 1024px) {
+    .grid_container .column-lg-fill-19 {
+      grid-column: span 19; } }
+  @media (min-width: 1280px) {
+    .grid_container .column-xl-fill-19 {
+      grid-column: span 19; } }
+  .grid_container.columns-20 {
+    grid-template-columns: repeat(20, minmax(10px, 1fr)); }
+  @media (min-width: 640px) {
+    .grid_container.columns-sm-20 {
+      grid-template-columns: repeat(20, minmax(10px, 1fr)); } }
+  @media (min-width: 768px) {
+    .grid_container.columns-md-20 {
+      grid-template-columns: repeat(20, minmax(10px, 1fr)); } }
+  @media (min-width: 1024px) {
+    .grid_container.columns-lg-20 {
+      grid-template-columns: repeat(20, minmax(10px, 1fr)); } }
+  @media (min-width: 1280px) {
+    .grid_container.columns-xl-20 {
+      grid-template-columns: repeat(20, minmax(10px, 1fr)); } }
+  .grid_container .column-fill-20 {
+    grid-column: span 20; }
+  @media (min-width: 640px) {
+    .grid_container .column-sm-fill-20 {
+      grid-column: span 20; } }
+  @media (min-width: 768px) {
+    .grid_container .column-md-fill-20 {
+      grid-column: span 20; } }
+  @media (min-width: 1024px) {
+    .grid_container .column-lg-fill-20 {
+      grid-column: span 20; } }
+  @media (min-width: 1280px) {
+    .grid_container .column-xl-fill-20 {
+      grid-column: span 20; } }
+  .grid_container.columns-21 {
+    grid-template-columns: repeat(21, minmax(10px, 1fr)); }
+  @media (min-width: 640px) {
+    .grid_container.columns-sm-21 {
+      grid-template-columns: repeat(21, minmax(10px, 1fr)); } }
+  @media (min-width: 768px) {
+    .grid_container.columns-md-21 {
+      grid-template-columns: repeat(21, minmax(10px, 1fr)); } }
+  @media (min-width: 1024px) {
+    .grid_container.columns-lg-21 {
+      grid-template-columns: repeat(21, minmax(10px, 1fr)); } }
+  @media (min-width: 1280px) {
+    .grid_container.columns-xl-21 {
+      grid-template-columns: repeat(21, minmax(10px, 1fr)); } }
+  .grid_container .column-fill-21 {
+    grid-column: span 21; }
+  @media (min-width: 640px) {
+    .grid_container .column-sm-fill-21 {
+      grid-column: span 21; } }
+  @media (min-width: 768px) {
+    .grid_container .column-md-fill-21 {
+      grid-column: span 21; } }
+  @media (min-width: 1024px) {
+    .grid_container .column-lg-fill-21 {
+      grid-column: span 21; } }
+  @media (min-width: 1280px) {
+    .grid_container .column-xl-fill-21 {
+      grid-column: span 21; } }
+  .grid_container.columns-22 {
+    grid-template-columns: repeat(22, minmax(10px, 1fr)); }
+  @media (min-width: 640px) {
+    .grid_container.columns-sm-22 {
+      grid-template-columns: repeat(22, minmax(10px, 1fr)); } }
+  @media (min-width: 768px) {
+    .grid_container.columns-md-22 {
+      grid-template-columns: repeat(22, minmax(10px, 1fr)); } }
+  @media (min-width: 1024px) {
+    .grid_container.columns-lg-22 {
+      grid-template-columns: repeat(22, minmax(10px, 1fr)); } }
+  @media (min-width: 1280px) {
+    .grid_container.columns-xl-22 {
+      grid-template-columns: repeat(22, minmax(10px, 1fr)); } }
+  .grid_container .column-fill-22 {
+    grid-column: span 22; }
+  @media (min-width: 640px) {
+    .grid_container .column-sm-fill-22 {
+      grid-column: span 22; } }
+  @media (min-width: 768px) {
+    .grid_container .column-md-fill-22 {
+      grid-column: span 22; } }
+  @media (min-width: 1024px) {
+    .grid_container .column-lg-fill-22 {
+      grid-column: span 22; } }
+  @media (min-width: 1280px) {
+    .grid_container .column-xl-fill-22 {
+      grid-column: span 22; } }
+  .grid_container.columns-23 {
+    grid-template-columns: repeat(23, minmax(10px, 1fr)); }
+  @media (min-width: 640px) {
+    .grid_container.columns-sm-23 {
+      grid-template-columns: repeat(23, minmax(10px, 1fr)); } }
+  @media (min-width: 768px) {
+    .grid_container.columns-md-23 {
+      grid-template-columns: repeat(23, minmax(10px, 1fr)); } }
+  @media (min-width: 1024px) {
+    .grid_container.columns-lg-23 {
+      grid-template-columns: repeat(23, minmax(10px, 1fr)); } }
+  @media (min-width: 1280px) {
+    .grid_container.columns-xl-23 {
+      grid-template-columns: repeat(23, minmax(10px, 1fr)); } }
+  .grid_container .column-fill-23 {
+    grid-column: span 23; }
+  @media (min-width: 640px) {
+    .grid_container .column-sm-fill-23 {
+      grid-column: span 23; } }
+  @media (min-width: 768px) {
+    .grid_container .column-md-fill-23 {
+      grid-column: span 23; } }
+  @media (min-width: 1024px) {
+    .grid_container .column-lg-fill-23 {
+      grid-column: span 23; } }
+  @media (min-width: 1280px) {
+    .grid_container .column-xl-fill-23 {
+      grid-column: span 23; } }
+  .grid_container.columns-24 {
+    grid-template-columns: repeat(24, minmax(10px, 1fr)); }
+  @media (min-width: 640px) {
+    .grid_container.columns-sm-24 {
+      grid-template-columns: repeat(24, minmax(10px, 1fr)); } }
+  @media (min-width: 768px) {
+    .grid_container.columns-md-24 {
+      grid-template-columns: repeat(24, minmax(10px, 1fr)); } }
+  @media (min-width: 1024px) {
+    .grid_container.columns-lg-24 {
+      grid-template-columns: repeat(24, minmax(10px, 1fr)); } }
+  @media (min-width: 1280px) {
+    .grid_container.columns-xl-24 {
+      grid-template-columns: repeat(24, minmax(10px, 1fr)); } }
+  .grid_container .column-fill-24 {
+    grid-column: span 24; }
+  @media (min-width: 640px) {
+    .grid_container .column-sm-fill-24 {
+      grid-column: span 24; } }
+  @media (min-width: 768px) {
+    .grid_container .column-md-fill-24 {
+      grid-column: span 24; } }
+  @media (min-width: 1024px) {
+    .grid_container .column-lg-fill-24 {
+      grid-column: span 24; } }
+  @media (min-width: 1280px) {
+    .grid_container .column-xl-fill-24 {
+      grid-column: span 24; } }
+  .grid_container.columns-25 {
+    grid-template-columns: repeat(25, minmax(10px, 1fr)); }
+  @media (min-width: 640px) {
+    .grid_container.columns-sm-25 {
+      grid-template-columns: repeat(25, minmax(10px, 1fr)); } }
+  @media (min-width: 768px) {
+    .grid_container.columns-md-25 {
+      grid-template-columns: repeat(25, minmax(10px, 1fr)); } }
+  @media (min-width: 1024px) {
+    .grid_container.columns-lg-25 {
+      grid-template-columns: repeat(25, minmax(10px, 1fr)); } }
+  @media (min-width: 1280px) {
+    .grid_container.columns-xl-25 {
+      grid-template-columns: repeat(25, minmax(10px, 1fr)); } }
+  .grid_container .column-fill-25 {
+    grid-column: span 25; }
+  @media (min-width: 640px) {
+    .grid_container .column-sm-fill-25 {
+      grid-column: span 25; } }
+  @media (min-width: 768px) {
+    .grid_container .column-md-fill-25 {
+      grid-column: span 25; } }
+  @media (min-width: 1024px) {
+    .grid_container .column-lg-fill-25 {
+      grid-column: span 25; } }
+  @media (min-width: 1280px) {
+    .grid_container .column-xl-fill-25 {
+      grid-column: span 25; } }
+  .grid_container.columns-26 {
+    grid-template-columns: repeat(26, minmax(10px, 1fr)); }
+  @media (min-width: 640px) {
+    .grid_container.columns-sm-26 {
+      grid-template-columns: repeat(26, minmax(10px, 1fr)); } }
+  @media (min-width: 768px) {
+    .grid_container.columns-md-26 {
+      grid-template-columns: repeat(26, minmax(10px, 1fr)); } }
+  @media (min-width: 1024px) {
+    .grid_container.columns-lg-26 {
+      grid-template-columns: repeat(26, minmax(10px, 1fr)); } }
+  @media (min-width: 1280px) {
+    .grid_container.columns-xl-26 {
+      grid-template-columns: repeat(26, minmax(10px, 1fr)); } }
+  .grid_container .column-fill-26 {
+    grid-column: span 26; }
+  @media (min-width: 640px) {
+    .grid_container .column-sm-fill-26 {
+      grid-column: span 26; } }
+  @media (min-width: 768px) {
+    .grid_container .column-md-fill-26 {
+      grid-column: span 26; } }
+  @media (min-width: 1024px) {
+    .grid_container .column-lg-fill-26 {
+      grid-column: span 26; } }
+  @media (min-width: 1280px) {
+    .grid_container .column-xl-fill-26 {
+      grid-column: span 26; } }
+  .grid_container.columns-27 {
+    grid-template-columns: repeat(27, minmax(10px, 1fr)); }
+  @media (min-width: 640px) {
+    .grid_container.columns-sm-27 {
+      grid-template-columns: repeat(27, minmax(10px, 1fr)); } }
+  @media (min-width: 768px) {
+    .grid_container.columns-md-27 {
+      grid-template-columns: repeat(27, minmax(10px, 1fr)); } }
+  @media (min-width: 1024px) {
+    .grid_container.columns-lg-27 {
+      grid-template-columns: repeat(27, minmax(10px, 1fr)); } }
+  @media (min-width: 1280px) {
+    .grid_container.columns-xl-27 {
+      grid-template-columns: repeat(27, minmax(10px, 1fr)); } }
+  .grid_container .column-fill-27 {
+    grid-column: span 27; }
+  @media (min-width: 640px) {
+    .grid_container .column-sm-fill-27 {
+      grid-column: span 27; } }
+  @media (min-width: 768px) {
+    .grid_container .column-md-fill-27 {
+      grid-column: span 27; } }
+  @media (min-width: 1024px) {
+    .grid_container .column-lg-fill-27 {
+      grid-column: span 27; } }
+  @media (min-width: 1280px) {
+    .grid_container .column-xl-fill-27 {
+      grid-column: span 27; } }
+  .grid_container.columns-28 {
+    grid-template-columns: repeat(28, minmax(10px, 1fr)); }
+  @media (min-width: 640px) {
+    .grid_container.columns-sm-28 {
+      grid-template-columns: repeat(28, minmax(10px, 1fr)); } }
+  @media (min-width: 768px) {
+    .grid_container.columns-md-28 {
+      grid-template-columns: repeat(28, minmax(10px, 1fr)); } }
+  @media (min-width: 1024px) {
+    .grid_container.columns-lg-28 {
+      grid-template-columns: repeat(28, minmax(10px, 1fr)); } }
+  @media (min-width: 1280px) {
+    .grid_container.columns-xl-28 {
+      grid-template-columns: repeat(28, minmax(10px, 1fr)); } }
+  .grid_container .column-fill-28 {
+    grid-column: span 28; }
+  @media (min-width: 640px) {
+    .grid_container .column-sm-fill-28 {
+      grid-column: span 28; } }
+  @media (min-width: 768px) {
+    .grid_container .column-md-fill-28 {
+      grid-column: span 28; } }
+  @media (min-width: 1024px) {
+    .grid_container .column-lg-fill-28 {
+      grid-column: span 28; } }
+  @media (min-width: 1280px) {
+    .grid_container .column-xl-fill-28 {
+      grid-column: span 28; } }
+  .grid_container.columns-29 {
+    grid-template-columns: repeat(29, minmax(10px, 1fr)); }
+  @media (min-width: 640px) {
+    .grid_container.columns-sm-29 {
+      grid-template-columns: repeat(29, minmax(10px, 1fr)); } }
+  @media (min-width: 768px) {
+    .grid_container.columns-md-29 {
+      grid-template-columns: repeat(29, minmax(10px, 1fr)); } }
+  @media (min-width: 1024px) {
+    .grid_container.columns-lg-29 {
+      grid-template-columns: repeat(29, minmax(10px, 1fr)); } }
+  @media (min-width: 1280px) {
+    .grid_container.columns-xl-29 {
+      grid-template-columns: repeat(29, minmax(10px, 1fr)); } }
+  .grid_container .column-fill-29 {
+    grid-column: span 29; }
+  @media (min-width: 640px) {
+    .grid_container .column-sm-fill-29 {
+      grid-column: span 29; } }
+  @media (min-width: 768px) {
+    .grid_container .column-md-fill-29 {
+      grid-column: span 29; } }
+  @media (min-width: 1024px) {
+    .grid_container .column-lg-fill-29 {
+      grid-column: span 29; } }
+  @media (min-width: 1280px) {
+    .grid_container .column-xl-fill-29 {
+      grid-column: span 29; } }
+  .grid_container.columns-30 {
+    grid-template-columns: repeat(30, minmax(10px, 1fr)); }
+  @media (min-width: 640px) {
+    .grid_container.columns-sm-30 {
+      grid-template-columns: repeat(30, minmax(10px, 1fr)); } }
+  @media (min-width: 768px) {
+    .grid_container.columns-md-30 {
+      grid-template-columns: repeat(30, minmax(10px, 1fr)); } }
+  @media (min-width: 1024px) {
+    .grid_container.columns-lg-30 {
+      grid-template-columns: repeat(30, minmax(10px, 1fr)); } }
+  @media (min-width: 1280px) {
+    .grid_container.columns-xl-30 {
+      grid-template-columns: repeat(30, minmax(10px, 1fr)); } }
+  .grid_container .column-fill-30 {
+    grid-column: span 30; }
+  @media (min-width: 640px) {
+    .grid_container .column-sm-fill-30 {
+      grid-column: span 30; } }
+  @media (min-width: 768px) {
+    .grid_container .column-md-fill-30 {
+      grid-column: span 30; } }
+  @media (min-width: 1024px) {
+    .grid_container .column-lg-fill-30 {
+      grid-column: span 30; } }
+  @media (min-width: 1280px) {
+    .grid_container .column-xl-fill-30 {
+      grid-column: span 30; } }
+  .grid_container.columns-31 {
+    grid-template-columns: repeat(31, minmax(10px, 1fr)); }
+  @media (min-width: 640px) {
+    .grid_container.columns-sm-31 {
+      grid-template-columns: repeat(31, minmax(10px, 1fr)); } }
+  @media (min-width: 768px) {
+    .grid_container.columns-md-31 {
+      grid-template-columns: repeat(31, minmax(10px, 1fr)); } }
+  @media (min-width: 1024px) {
+    .grid_container.columns-lg-31 {
+      grid-template-columns: repeat(31, minmax(10px, 1fr)); } }
+  @media (min-width: 1280px) {
+    .grid_container.columns-xl-31 {
+      grid-template-columns: repeat(31, minmax(10px, 1fr)); } }
+  .grid_container .column-fill-31 {
+    grid-column: span 31; }
+  @media (min-width: 640px) {
+    .grid_container .column-sm-fill-31 {
+      grid-column: span 31; } }
+  @media (min-width: 768px) {
+    .grid_container .column-md-fill-31 {
+      grid-column: span 31; } }
+  @media (min-width: 1024px) {
+    .grid_container .column-lg-fill-31 {
+      grid-column: span 31; } }
+  @media (min-width: 1280px) {
+    .grid_container .column-xl-fill-31 {
+      grid-column: span 31; } }
+  .grid_container.columns-32 {
+    grid-template-columns: repeat(32, minmax(10px, 1fr)); }
+  @media (min-width: 640px) {
+    .grid_container.columns-sm-32 {
+      grid-template-columns: repeat(32, minmax(10px, 1fr)); } }
+  @media (min-width: 768px) {
+    .grid_container.columns-md-32 {
+      grid-template-columns: repeat(32, minmax(10px, 1fr)); } }
+  @media (min-width: 1024px) {
+    .grid_container.columns-lg-32 {
+      grid-template-columns: repeat(32, minmax(10px, 1fr)); } }
+  @media (min-width: 1280px) {
+    .grid_container.columns-xl-32 {
+      grid-template-columns: repeat(32, minmax(10px, 1fr)); } }
+  .grid_container .column-fill-32 {
+    grid-column: span 32; }
+  @media (min-width: 640px) {
+    .grid_container .column-sm-fill-32 {
+      grid-column: span 32; } }
+  @media (min-width: 768px) {
+    .grid_container .column-md-fill-32 {
+      grid-column: span 32; } }
+  @media (min-width: 1024px) {
+    .grid_container .column-lg-fill-32 {
+      grid-column: span 32; } }
+  @media (min-width: 1280px) {
+    .grid_container .column-xl-fill-32 {
+      grid-column: span 32; } }
+
+/*# sourceMappingURL=grid-bootstrap.css.map */
